@@ -1,0 +1,104 @@
+[
+    {
+        "level": "SEVERE",
+        "message": "https:\/\/trusted-web-seal.cybertrust.ne.jp\/seal\/getScript?host_name=www.afi-b.com&type=11 - Failed to load resource: the server responded with a status of 403 (Forbidden)",
+        "source": "network",
+        "timestamp": 1555492735397
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/www.afi-b.com\/ - The connection used to load resources from https:\/\/client.afi-b.com used TLS 1.0 or TLS 1.1, which are deprecated and will be disabled in the future. Once disabled, users will be prevented from loading these resources. The server should enable TLS 1.2 or later. See https:\/\/www.chromestatus.com\/feature\/5654791610957824 for more information.",
+        "source": "other",
+        "timestamp": 1555492743355
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/client.afi-b.com\/client\/b\/cl\/main - The connection used to load resources from https:\/\/client.afi-b.com used TLS 1.0 or TLS 1.1, which are deprecated and will be disabled in the future. Once disabled, users will be prevented from loading these resources. The server should enable TLS 1.2 or later. See https:\/\/www.chromestatus.com\/feature\/5654791610957824 for more information.",
+        "source": "other",
+        "timestamp": 1555492743423
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/www.google.com\/jsapi 22 A parser-blocking, cross site (i.e. different eTLD+1) script, https:\/\/www.google.com\/uds\/?file=visualization&v=1.0&packages=corechart, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https:\/\/www.chromestatus.com\/feature\/5718547946799104 for more details.",
+        "source": "javascript",
+        "timestamp": 1555492744522
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/www.google.com\/jsapi 22 A parser-blocking, cross site (i.e. different eTLD+1) script, https:\/\/www.google.com\/uds\/?file=visualization&v=1.0&packages=corechart, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https:\/\/www.chromestatus.com\/feature\/5718547946799104 for more details.",
+        "source": "javascript",
+        "timestamp": 1555492744525
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/www.google.com\/jsapi 22 A parser-blocking, cross site (i.e. different eTLD+1) script, https:\/\/www.google.com\/uds\/api\/visualization\/1.0\/40ff64b1d9d6b3213524485974f36cc0\/format+en,default+en,ui+en,corechart+en.I.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https:\/\/www.chromestatus.com\/feature\/5718547946799104 for more details.",
+        "source": "javascript",
+        "timestamp": 1555492744678
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/client.afi-b.com\/client\/b\/cl\/report\/?r=monthly - The connection used to load resources from https:\/\/client.afi-b.com used TLS 1.0 or TLS 1.1, which are deprecated and will be disabled in the future. Once disabled, users will be prevented from loading these resources. The server should enable TLS 1.2 or later. See https:\/\/www.chromestatus.com\/feature\/5654791610957824 for more information.",
+        "source": "other",
+        "timestamp": 1555492746712
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/client.afi-b.com\/client\/b\/cl\/report\/?r=monthly#report_view - The connection used to load resources from https:\/\/client.afi-b.com used TLS 1.0 or TLS 1.1, which are deprecated and will be disabled in the future. Once disabled, users will be prevented from loading these resources. The server should enable TLS 1.2 or later. See https:\/\/www.chromestatus.com\/feature\/5654791610957824 for more information.",
+        "source": "other",
+        "timestamp": 1555492749447
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/www.google.com\/jsapi 22 A parser-blocking, cross site (i.e. different eTLD+1) script, https:\/\/www.google.com\/uds\/?file=visualization&v=1.0&packages=corechart, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https:\/\/www.chromestatus.com\/feature\/5718547946799104 for more details.",
+        "source": "javascript",
+        "timestamp": 1555492749699
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/www.google.com\/jsapi 22 A parser-blocking, cross site (i.e. different eTLD+1) script, https:\/\/www.google.com\/uds\/?file=visualization&v=1.0&packages=corechart, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https:\/\/www.chromestatus.com\/feature\/5718547946799104 for more details.",
+        "source": "javascript",
+        "timestamp": 1555492749699
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/www.google.com\/jsapi 22 A parser-blocking, cross site (i.e. different eTLD+1) script, https:\/\/www.google.com\/uds\/api\/visualization\/1.0\/40ff64b1d9d6b3213524485974f36cc0\/format+en,default+en,ui+en,corechart+en.I.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https:\/\/www.chromestatus.com\/feature\/5718547946799104 for more details.",
+        "source": "javascript",
+        "timestamp": 1555492749700
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/client.afi-b.com\/client\/b\/cl\/main - The connection used to load resources from https:\/\/client.afi-b.com used TLS 1.0 or TLS 1.1, which are deprecated and will be disabled in the future. Once disabled, users will be prevented from loading these resources. The server should enable TLS 1.2 or later. See https:\/\/www.chromestatus.com\/feature\/5654791610957824 for more information.",
+        "source": "other",
+        "timestamp": 1555492751249
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/www.google.com\/jsapi 22 A parser-blocking, cross site (i.e. different eTLD+1) script, https:\/\/www.google.com\/uds\/?file=visualization&v=1.0&packages=corechart, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https:\/\/www.chromestatus.com\/feature\/5718547946799104 for more details.",
+        "source": "javascript",
+        "timestamp": 1555492751391
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/www.google.com\/jsapi 22 A parser-blocking, cross site (i.e. different eTLD+1) script, https:\/\/www.google.com\/uds\/?file=visualization&v=1.0&packages=corechart, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https:\/\/www.chromestatus.com\/feature\/5718547946799104 for more details.",
+        "source": "javascript",
+        "timestamp": 1555492751391
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/www.google.com\/jsapi 22 A parser-blocking, cross site (i.e. different eTLD+1) script, https:\/\/www.google.com\/uds\/api\/visualization\/1.0\/40ff64b1d9d6b3213524485974f36cc0\/format+en,default+en,ui+en,corechart+en.I.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https:\/\/www.chromestatus.com\/feature\/5718547946799104 for more details.",
+        "source": "javascript",
+        "timestamp": 1555492751394
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/client.afi-b.com\/client\/b\/cl\/report\/?r=site#report_view - The connection used to load resources from https:\/\/client.afi-b.com used TLS 1.0 or TLS 1.1, which are deprecated and will be disabled in the future. Once disabled, users will be prevented from loading these resources. The server should enable TLS 1.2 or later. See https:\/\/www.chromestatus.com\/feature\/5654791610957824 for more information.",
+        "source": "other",
+        "timestamp": 1555492752751
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/client.afi-b.com\/client\/b\/cl\/report\/?r=site#report_view - The connection used to load resources from https:\/\/client.afi-b.com used TLS 1.0 or TLS 1.1, which are deprecated and will be disabled in the future. Once disabled, users will be prevented from loading these resources. The server should enable TLS 1.2 or later. See https:\/\/www.chromestatus.com\/feature\/5654791610957824 for more information.",
+        "source": "other",
+        "timestamp": 1555492757345
+    }
+]
