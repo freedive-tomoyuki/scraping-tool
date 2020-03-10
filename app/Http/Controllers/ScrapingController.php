@@ -65,7 +65,7 @@ namespace App\Http\Controllers;
                         // echo '<pre>';
                         // echo "含まれるURL：".$u;
                         // echo '</pre>';
-                        array_push($result,$u);
+                        array_push($result, [$u,$w] );
 
                         // DB::table('grobal_wifi_checker_results')->insert([ 'grobal_wifi_checker_id' => $value->id , 'word'=> $w ]);
                     }
