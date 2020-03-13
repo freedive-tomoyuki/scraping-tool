@@ -18,10 +18,12 @@
 Route::get('imoto','ImotoController@index');
 
 
+
 Route::get('show_test','ChromeheadlessController@show_test')->name('show_test');
 
 Route::get('daily_report','ChromeheadlessController@index')->name('crawlerdaily');
 
+Route::get( 'test','CrawlerController@index');
 // Route::get( 'daily_result','DailyController@daily_result')->name('daily_result');
 // Route::post( 'daily_result','DailyController@daily_result_search');
 
