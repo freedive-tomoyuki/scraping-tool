@@ -50,6 +50,7 @@ Route::get( 'test','CrawlerController@index');
 Route::get('/exec', 'ScrapingController@index');
 Route::post('/exec/run', 'ScrapingController@run')->name('running');
 
+Route::get('/pick', 'ScrapingController@pickUpUpls');
 
 /*成功例
 Route::get('/demo', function() {
