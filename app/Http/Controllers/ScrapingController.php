@@ -72,15 +72,16 @@ namespace App\Http\Controllers;
     //    $array = array_map('trim', $array); // 各行にtrim()をかける
     //    $array = array_filter($array, 'strlen'); // 文字数が0の行を取り除く
     //    $array = array_values($array); 
-    echo '<pre>';
-    $array =  json_decode( $this->getHrefUrl('http://www.tokoton-navi.com/knowledge_1.html'),1);
+    // echo '<pre>';
+    $array =  json_decode( $this->getHrefUrl('http://iphone.f-tools.net/QandA/Price-Hikaku.html'),1);
     var_dump($array);
     $i = 0;
     foreach($array as $a){
+        \Log::info('くろーるちゅう'.$a);
         $array_1[$i] =  json_decode( $this->getHrefUrl($a),1);
         $i++;
     }
-    var_dump($array_1);
+    // var_dump($array_1);
     //    foreach ($array  as $u) {
 
     //        $crawler = $client->request('GET', $u);
@@ -113,7 +114,7 @@ namespace App\Http\Controllers;
                         array_push( $result , $url .  $n->attr('href'));
                         // echo $i++;
 
-                    }elseif(substr($n->attr('href'), 0, 1) != '#' && ($n->attr('href') != 'javascript:void(0);') && ($n->attr('href') != '') ) {
+                    }elseif(substr($n->attr('href'), 0, 1) != '#' && strpos($n->attr('href'),'javascript:void(0)') === false && ($n->attr('href') != '/') ) {
 
                         array_push( $result , $n->attr('href'));
                     }
@@ -123,6 +124,14 @@ namespace App\Http\Controllers;
                 $x++;
         });
         return json_encode( $result );
+
+    }
+    public function genarateUrl($domain, $url){
+        if(substr($url, 0, 1) != '/'):   endif; 
+        
+        $domain
+
+
 
     }
 

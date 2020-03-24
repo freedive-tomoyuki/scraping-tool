@@ -18,6 +18,7 @@
 Route::get('imoto','ImotoController@index');
 
 
+Route::get('kintone','KintoneTestController@run');
 
 Route::get('show_test','ChromeheadlessController@show_test')->name('show_test');
 
@@ -51,6 +52,7 @@ Route::get('/exec', 'ScrapingController@index');
 Route::post('/exec/run', 'ScrapingController@run')->name('running');
 
 Route::get('/pick', 'ScrapingController@pickUpUpls');
+
 
 /*成功例
 Route::get('/demo', function() {
